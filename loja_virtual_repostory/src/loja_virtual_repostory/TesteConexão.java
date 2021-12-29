@@ -21,8 +21,7 @@ public class TesteConexão {
 			String nome = rst.getString("NOME");
 			System.out.print( nome +" / ");
 			String descricao = rst.getString("DESCRICAO");
-			System.out.print( descricao +" ");
-			
+			System.out.println( descricao +" ");
 		}
 		
 		
